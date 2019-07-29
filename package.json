@@ -1,0 +1,34 @@
+{
+  "name": "proxy-amazon-reviews-pt",
+  "version": "1.0.0",
+  "description": "Proxy for all item page components FEC HackReactor",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byteminds/proxy-amazon-reviews-pt.git"
+  },
+  "keywords": [
+    "proxy",
+    "item",
+    "page",
+    "modules",
+    "components"
+  ],
+  "author": "Peter Tantono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byteminds/proxy-amazon-reviews-pt/issues"
+  },
+  "homepage": "https://github.com/byteminds/proxy-amazon-reviews-pt#readme",
+  "devDependencies": {
+    "http-proxy-middleware": "^0.19.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
